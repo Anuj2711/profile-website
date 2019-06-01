@@ -1,33 +1,109 @@
-.App {
-  text-align: center;
+.header-color{
+    background: #159957;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #155799, #159957);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #155799, #159957); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.landing-grid{
+    
+    background: #159957;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #155799, #159957);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #155799, #159957); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+left:0;
+width:100%;
+
+text-align:center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header-grid{
+    background:black;
 }
 
-.App-link {
-  color: #61dafb;
+.projectt{
+    margin-top:-25px;
+    background: #636363;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #a2ab58, #636363);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #a2ab58, #636363); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.profile{
+    height: 250px;
+    border-radius: 10px;
+  
+}
+
+.heading{
+    vertical-align: middle;
+    background-color: black;
+    color:white;
+    opacity: .8;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom:15px;
   }
-  to {
-    transform: rotate(360deg);
+  .heading  h1 {
+      font-weight:bold;
+      padding:em;  
   }
+
+  
+  .heading p{
+      font-size: 18px;
+      padding:em;
+  }
+
+  .social-links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 25%;
+    margin: auto;
+  }
+  .social-links i {
+    color: white;
+    font-size: 3em;
+    margin-bottom:10px;
+  }
+
+  .navLink{
+      font-size:20px;
+  }
+
+  .headerr{
+      
+      color:white;
+  }
+
+  .profile2{
+    height: 150px;
+    margin-top:30px;
+    border-radius: 100px;
+
+}
+
+.ccd{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.project{
+    padding-top:15px;
+    text-align: center;
+}
+
+.contact-link{
+    text-decoration:none;
+    color:white;
+}
+
+.abcd{
+    margin-left:10px;
+}
+
+.projectss{
+    beckground:red;
+    
 }
